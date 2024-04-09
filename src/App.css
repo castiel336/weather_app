@@ -1,0 +1,97 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  box-sizing: inherit;
+  background-color: #222;
+  color: aliceblue;
+  display: flex;
+  background-image: url("../public/backgorund.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  font-family: system-ui;
+}
+
+.weather__info{
+  align-items: column;
+  
+}
+
+.info__text{
+  border: solid 4px #464646;
+  padding: 30px;
+  border-radius: 15px;
+}
+ul{
+  list-style: none;
+  line-height: 1.5;
+  width: 200px;
+  /* border: solid #222; */
+  text-align: left;
+}
+
+.container--wc{
+  position: fixed;
+  top: 38.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50vw;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgba(177, 176, 176, 0.664);
+  border-radius: 20px;
+  padding: 5px;
+  height: 60vh;
+  text-align: center;
+  box-shadow: rgb(0, 0, 0) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.info__text {
+  width: 80%;
+  justify-content: right;
+  align-items: center;
+}
+
+
+button{
+  padding: 12px 5px;
+}
+
+h3{
+  text-align: center;
+}
+
+button{
+  
+    padding: 10px 20px;
+    background-color: #646964;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+button:hover {
+    background-color: #414141;
+  }
+button:active {
+    background-color: #000000;
+  }
+
+  .temp{
+    background-color: #000000;
+    padding: .75em 1.5em;
+    border-radius: 18px;
+  }
+
